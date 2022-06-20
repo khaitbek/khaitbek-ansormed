@@ -1,0 +1,274 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", "Arial", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.site-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  margin-right: 32px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #222222;
+  border-right: 2px solid transparent;
+}
+
+.site-reception-link {
+  padding: 12px 24px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  color: #ffffff;
+  background: #de2e54;
+  border: 2px solid #de2e54;
+  border-radius: 8px;
+}
+
+/****************** HERO SECTION START ************/
+.hero {
+  background-color: #0eb4c1;
+  padding-top: 29px;
+}
+
+.hero-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-start {
+  width: 500px;
+  margin-right: 77px;
+}
+
+.hero-title {
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  color: #ffffff;
+}
+
+.hero-text {
+  margin-bottom: 36px;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+}
+/****************** HERO SECTION END ************/
+
+/****************** SERVICES SECTION START ************/
+.services {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.services-list {
+}
+
+.service-item {
+  width: 864px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 80px;
+}
+
+.last-service-item {
+  margin-bottom: 60px;
+}
+
+.service-img {
+  margin-right: 64px;
+}
+
+.services-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  text-align: center;
+  color: #000000;
+}
+
+.service-title {
+  margin-top: 14px;
+  margin-bottom: 24px;
+}
+
+.service-desc {
+  display: inline;
+  margin: 0;
+  font-size: 16px;
+  line-height: 150%;
+  color: #444444;
+}
+
+.service-desc-quote {
+  display: inline;
+  margin: 0;
+  color: #444;
+}
+
+.service-desc-quote-comment {
+  font-size: 16px;
+  color: #444;
+}
+
+.services-link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*********** ARTICLE START **********/
+.site-article {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: #0eb4c1;
+}
+
+.article-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.article-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  color: #ffffff;
+}
+
+.article-links {
+  display: flex;
+}
+
+.article-link {
+  margin-right: 24px;
+  padding: 12px 24px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 120%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+}
+
+/*********** ARTICLE END **********/
+/*********** FOOTER START **********/
+.site-footer {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #222;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+
+.footer-link {
+  margin-right: 32px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/*********** FOOTER END **********/
+
+/*! HOVER EFFECTS START */
+.nav-link:hover {
+  color: #de2e54;
+}
+
+.site-reception-link:hover {
+  background-color: #fff;
+  color: #de2e54;
+  border-color: #de2e54;
+}
+
+.hero-link:hover {
+  background-color: rgba(222, 46, 84, 0.8);
+  color: #fff;
+}
+
+.article-link:hover {
+  background: #de2e54;
+  color: #fff;
+  border-color: #de2e54;
+}
+
+.footer-link:hover {
+  color: #de2e54;
+}
+/*! HOVER EFFECTS END */
+
+/*TODO ACTIVE EFFECTS START  */
+.nav-link:active {
+  color: rgb(222, 46, 84, 0.6);
+}
+.site-reception-link:active {
+  background-color: rgb(222, 46, 84, 0.6);
+  color: #fff;
+}
+
+hero-link:active {
+  background-color: rgba(222, 46, 84, 0.6);
+  color: #fff;
+}
+
+.article-link:active {
+  background-color: rgba(222, 46, 84, 0.6);
+  color: #fff;
+}
+
+.footer-link:active {
+  color: rgba(222, 46, 84, 0.6);
+}
+/*TODO ACTIVE EFFECTS END  */
