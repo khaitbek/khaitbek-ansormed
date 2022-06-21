@@ -64,6 +64,24 @@ ul {
   border-radius: 8px;
 }
 
+.nav-link:hover {
+  color: #de2e54;
+}
+
+.site-reception-link:hover {
+  background-color: #fff;
+  color: #de2e54;
+  border-color: #de2e54;
+}
+
+.nav-link:active {
+  color: rgb(222, 46, 84, 0.6);
+}
+.site-reception-link:active {
+  background-color: rgb(222, 46, 84, 0.6);
+  color: #fff;
+}
+
 /****************** HERO SECTION START ************/
 .hero {
   background-color: #0eb4c1;
@@ -95,6 +113,16 @@ ul {
   line-height: 150%;
   color: #ffffff;
 }
+
+.hero-link:hover {
+  background-color: rgba(222, 46, 84, 0.8);
+  color: #fff;
+}
+
+.hero-link:active {
+  background-color: rgba(222, 46, 84, 0.6);
+  color: #fff;
+}
 /****************** HERO SECTION END ************/
 
 /****************** SERVICES SECTION START ************/
@@ -123,6 +151,7 @@ ul {
 }
 
 .services-title {
+  margin-bottom: 56px;
   font-weight: 700;
   font-size: 36px;
   line-height: 120%;
@@ -175,6 +204,8 @@ ul {
 }
 
 .article-title {
+  margin-top: 0;
+  margin-bottom: 40px;
   font-weight: 700;
   font-size: 36px;
   line-height: 120%;
@@ -196,6 +227,16 @@ ul {
   color: #ffffff;
   border: 2px solid #ffffff;
   border-radius: 8px;
+}
+
+.article-link:hover {
+  background: #de2e54;
+  color: #fff;
+  border-color: #de2e54;
+}
+.article-link:active {
+  background-color: rgba(222, 46, 84, 0.6);
+  color: #fff;
 }
 
 /*********** ARTICLE END **********/
@@ -220,55 +261,10 @@ ul {
   text-transform: uppercase;
   color: #ffffff;
 }
-/*********** FOOTER END **********/
-
-/*! HOVER EFFECTS START */
-.nav-link:hover {
-  color: #de2e54;
-}
-
-.site-reception-link:hover {
-  background-color: #fff;
-  color: #de2e54;
-  border-color: #de2e54;
-}
-
-.hero-link:hover {
-  background-color: rgba(222, 46, 84, 0.8);
-  color: #fff;
-}
-
-.article-link:hover {
-  background: #de2e54;
-  color: #fff;
-  border-color: #de2e54;
-}
 
 .footer-link:hover {
   color: #de2e54;
 }
-/*! HOVER EFFECTS END */
-
-/*TODO ACTIVE EFFECTS START  */
-.nav-link:active {
-  color: rgb(222, 46, 84, 0.6);
-}
-.site-reception-link:active {
-  background-color: rgb(222, 46, 84, 0.6);
-  color: #fff;
-}
-
-hero-link:active {
-  background-color: rgba(222, 46, 84, 0.6);
-  color: #fff;
-}
-
-.article-link:active {
-  background-color: rgba(222, 46, 84, 0.6);
-  color: #fff;
-}
-
 .footer-link:active {
   color: rgba(222, 46, 84, 0.6);
 }
-/*TODO ACTIVE EFFECTS END  */
