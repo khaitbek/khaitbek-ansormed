@@ -83,8 +83,13 @@ ul {
 
 /****************** HERO SECTION START ************/
 .hero {
-  background-color: #0eb4c1;
+  height: 504px;
   padding-top: 29px;
+  background-image:url("../images/hero.png");
+  background-color: #0eb4c1;
+  background-size: 423px 504px;
+  background-position:left calc(60% + 200px) bottom 25% ;
+  background-repeat: no-repeat;
 }
 
 .hero-inner {
@@ -141,12 +146,44 @@ ul {
   margin-bottom: 80px;
 }
 
+.service-item::before{
+  content: '';
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-size: 200px 200px;
+  background-position: 0 center;
+}
+
+.service-item:nth-child(1)::before{
+  background-image: url("../images/hijoma.jpg");
+
+}
+.service-item:nth-child(2)::before{
+  background-image: url("../images/therapy.jpg");
+
+}
+.service-item:nth-child(3)::before{
+  background-image: url("../images/zuluk.jpg");
+
+}
+.service-item:nth-child(4)::before{
+    background-image: url("../images/natural.jpg");
+
+
+}
+
 .last-service-item {
   margin-bottom: 60px;
 }
 
 .service-img {
   margin-right: 64px;
+}
+
+.service-text-content{
+  width: 600px;
+  margin-left: 64px;
 }
 
 .services-title {
@@ -216,7 +253,7 @@ ul {
 }
 
 .article-link {
-  margin-right: 24px;
+  margin-right: 40px;
   padding: 12px 24px;
   font-weight: 700;
   font-size: 15px;
@@ -252,7 +289,6 @@ ul {
 }
 
 .footer-link {
-  margin-right: 32px;
   font-weight: 700;
   font-size: 14px;
   line-height: 150%;
@@ -260,6 +296,13 @@ ul {
   text-transform: uppercase;
   color: #ffffff;
 }
+
+.footer-item:nth-child(even){
+  margin-right: 32px;
+  margin-left: 32px;
+}
+
+.footer:nth-child()
 
 .footer-link:hover {
   color: #de2e54;
